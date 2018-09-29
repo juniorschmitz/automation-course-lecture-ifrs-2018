@@ -1,4 +1,5 @@
 ---
-default: -p html -p bdd
+default: -p html -p json -p bdd
 html: --format html --out=log/features.html
+json: --format json --out=log/features.json
 bdd: --format pretty
