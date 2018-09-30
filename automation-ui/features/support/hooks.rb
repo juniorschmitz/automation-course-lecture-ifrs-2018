@@ -9,3 +9,7 @@ After do |scenario|
   page.save_screenshot(screenshot)
   embed(screenshot, 'image/png', 'TestEmbedding')
 end
+
+Before do
+  page.driver.browser.manage.window.maximize
+end
