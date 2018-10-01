@@ -5,5 +5,12 @@ class HomePage < SitePrism::Page
   #set_url 'http://store.demoqa.com/' old
   set_url 'http://automationpractice.com/'
   section  :header, Desktop::Header, '#header'
+  element  :input_search, '#search_query_top'
 
+  
+  def load
+    super
+    highlight(input_search)
+    set_char_by_char(input_search, 'aaaaaaa')
+  end
 end
