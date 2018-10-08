@@ -6,4 +6,4 @@ For practicing, on the master branch there is the basic structure for creating a
 Also, in the challenge branch there are some exercises for practicing automation with Capybara and Ruby.
 
 Have fun! :-)
-"# automation-ifrs" 
+# automation-ifrs
